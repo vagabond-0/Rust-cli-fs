@@ -119,7 +119,7 @@ fn main() {
                 match task {
                     Some(task_name) => {
                         println!("Adding the new task: {}", task_name);
-                        add(task_name, 0); // Add task with is_done = 0
+                        add(task_name, 0);
                     }
                     None => {
                         println!("Please provide a task to add.");
